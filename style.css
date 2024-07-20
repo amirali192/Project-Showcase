@@ -1,6 +1,6 @@
 body {
 
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(20, 20, 20);
     font-family: sans-serif;
 
 }
@@ -12,53 +12,61 @@ body {
     width: 700px;
     padding: 10px;
     font-size: 20px;
-    color: rgb(48, 48, 48);
-    background-color: #c2c2c2;
+    color: rgb(201, 201, 201);
+    background-color: #2e2e2e;
     border-radius: 10px;
     display: block;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
 
 }
 
 #BouncyBall {
-
-    margin-top: 6%;
-    margin-left: 31%;
+    right: 30.7%;
+    top: 20%;
+    position: absolute;
     text-align: center;
     width: 200px;
     padding: 10px;
     font-size: 20px;
     color: rgb(48, 48, 48);
-    background-color: #c2c2c2;
+    background-color: #464646;
     border-radius: 10px;
     display: inline-block;
-    transition: 300ms;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
 
 }
 
 #BouncyBall:hover {
 
     background-color: white;
+    box-shadow:
+        0px 0px 15px 0px #ffffff;
 
 }
 
 #JS-School {
 
-    margin-top: 0%;
-    margin-left: 9%;
+    top: 20%;
+    left: 30.9%;
+    position: absolute;
     text-align: center;
     width: 300px;
     padding: 10px;
     font-size: 20px;
     color: rgb(48, 48, 48);
-    background-color: #c2c2c2;
+    background-color: #464646;
     border-radius: 10px;
     display: inline-block;
-    transition: 300ms;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
 
 }
 
 #JS-School:hover {
 
     background-color: white;
+    box-shadow:
+        0px 0px 15px 0px #ffffff;
 
 }

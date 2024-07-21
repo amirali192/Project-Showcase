@@ -1,55 +1,39 @@
+/* GENERAL CSS */
 body {
-
     background-color: rgb(20, 20, 20);
-    font-family: sans-serif;
+    font-family: monospace;
+}
 
+.container {
+    width: 1600px;
+    height: 700px;
+    margin: 4% auto;
+    border: 10px solid #c2c2c2;
+    border-radius: 50px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
+
+.container * {
+    text-decoration: none;
 }
 
 #Header {
-
-    margin: 10px auto;
+    margin: 15px auto;
     text-align: center;
     width: 700px;
     padding: 10px;
     font-size: 20px;
-    color: rgb(201, 201, 201);
+    color: rgb(168, 168, 168);
     background-color: #2e2e2e;
     border-radius: 10px;
     display: block;
     box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
-
 }
 
+/* BOUNCY BALL PROJECT CSS */
 #BouncyBall {
-    right: 30.7%;
-    top: 20%;
-    position: absolute;
-    text-align: center;
-    width: 200px;
-    padding: 10px;
-    font-size: 20px;
-    color: rgb(48, 48, 48);
-    background-color: #464646;
-    border-radius: 10px;
-    display: inline-block;
-    transition: 250ms;
-    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
-
-}
-
-#BouncyBall:hover {
-
-    background-color: white;
-    box-shadow:
-        0px 0px 15px 0px #ffffff;
-
-}
-
-#JS-School {
-
-    top: 20%;
-    left: 30.9%;
-    position: absolute;
+    margin: 6% auto;
+    margin-bottom: 0%;
     text-align: center;
     width: 300px;
     padding: 10px;
@@ -57,16 +41,32 @@ body {
     color: rgb(48, 48, 48);
     background-color: #464646;
     border-radius: 10px;
-    display: inline-block;
+    display: block;
     transition: 250ms;
     box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
 
+#BouncyBall:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+
+/* JS SCHOOL PROJECT CSS */
+#JS-School {
+    margin: 2% auto;
+    text-align: center;
+    width: 220px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    background-color: #464646;
+    border-radius: 10px;
+    display: block;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
 }
 
 #JS-School:hover {
-
     background-color: white;
-    box-shadow:
-        0px 0px 15px 0px #ffffff;
-
+    box-shadow: 0px 0px 15px 0px #ffffff;
 }

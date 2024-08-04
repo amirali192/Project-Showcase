@@ -70,3 +70,23 @@ body {
     background-color: white;
     box-shadow: 0px 0px 15px 0px #ffffff;
 }
+
+/* Calc-and-Search PROJECT CSS */
+#Calc-and-Search {
+    margin: 2% auto;
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    background-color: #464646;
+    border-radius: 10px;
+    display: block;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
+
+#Calc-and-Search:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}

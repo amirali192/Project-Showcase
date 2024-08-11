@@ -90,3 +90,80 @@ body {
     background-color: white;
     box-shadow: 0px 0px 15px 0px #ffffff;
 }
+
+/* exercises for JS */
+#first {
+    margin: 2% auto;
+    text-align: center;
+    width: 265px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    background-color: #464646;
+    border-radius: 10px;
+    display: block;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
+
+#first:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+
+#second {
+    margin: 2% auto;
+    text-align: center;
+    width: 275px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    background-color: #464646;
+    border-radius: 10px;
+    display: block;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
+
+#second:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+
+#third {
+    margin: 2% auto;
+    text-align: center;
+    width: 265px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    background-color: #464646;
+    border-radius: 10px;
+    display: block;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
+
+#third:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+
+#forth {
+    margin: 2% auto;
+    text-align: center;
+    width: 265px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    background-color: #464646;
+    border-radius: 10px;
+    display: block;
+    transition: 250ms;
+    box-shadow: rgb(0, 0, 0) 0px 0px 30px 7px;
+}
+
+#forth:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
